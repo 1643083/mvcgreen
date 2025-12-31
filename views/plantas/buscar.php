@@ -46,7 +46,7 @@
                 <option value="">Seleccione</option>
                 <option value="interior">Interior</option>
                 <option value="ornamental">Ornamental</option>
-                <option value="Medicinal">Medicinal</option>
+                <option value="medicinal">Medicinal</option>
                 </select>
                 <button class="btn btn-success" type="submit">Buscar</button>
             </div>
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
           planta.nombre + " (" + planta.tipo + ")"
       } else {
         document.querySelector("#resultado").value = ""
-        alert("No se encontró la planta 😢")
+        alert("No se encontró la planta")
       }
     })
   })

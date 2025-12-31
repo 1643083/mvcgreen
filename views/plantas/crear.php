@@ -31,8 +31,8 @@
           <select id="tipo" class="form-select" required>
             <option value="">Seleccione tipo</option>
             <option value="interior">Interior</option>
-            <option value="exterior">Ornamental</option>
-            <option value="suculenta">Medicinal</option>
+            <option value="ornamental">Ornamental</option>
+            <option value="medicinal">Medicinal</option>
           </select>
         </div>
 
@@ -86,10 +86,10 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(data => {
       console.log(data)
       if (data.id > 0) {
-        alert("Planta registrada correctamente 🌱")
+        alert("Planta registrada correctamente")
         document.querySelector("#formulario-planta").reset()
       } else {
-        alert("No se pudo registrar la planta 😭")
+        alert("No se pudo registrar la planta")
       }
     })
   }

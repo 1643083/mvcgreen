@@ -84,7 +84,7 @@
 
         const id = e.target.getAttribute("data-id");
 
-        if (confirm("¿Seguro que deseas eliminar este registro?")) {
+        if (confirm("¿Seguro que deseas eliminar esta planta?")) {
 
         const datos = new FormData();
         datos.append("operacion", "eliminar");
