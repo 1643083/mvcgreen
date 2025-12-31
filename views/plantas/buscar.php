@@ -10,8 +10,12 @@
 <body>
     <div class="container mt-3">
         <h3>Búsqueda de plantas</h3>
-        <a href="./listar.php" class="btn btn-sm btn-primary">Lista de plantas</a>
-        <h3>Búsqueda de planta por ID</h3>    
+        <div class="mb-3">
+          <a href="./listar.php" class="btn btn-outline-primary btn-sm">Listar</a>
+          <a href="./crear.php" class="btn btn-outline-success btn-sm">Crear</a>
+          <a href="./buscar.php" class="btn btn-outline-info btn-sm">Buscar</a>
+        </div>
+      <h3>Búsqueda de planta por ID</h3>    
         <form id="form-busqueda-id">
             <div class="mb-3">
                 <label for="idbuscado">ID de la planta</label>

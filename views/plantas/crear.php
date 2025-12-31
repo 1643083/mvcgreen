@@ -10,8 +10,12 @@
 
 <div class="container">
   <h1>Registro de plantas</h1>
-  <a href="./listar.php" class="btn btn-sm btn-primary">Lista de plantas</a>
-  <hr>
+    <div class="mb-3">
+      <a href="./listar.php" class="btn btn-outline-primary btn-sm">Listar</a>
+      <a href="./crear.php" class="btn btn-outline-success btn-sm">Crear</a>
+      <a href="./buscar.php" class="btn btn-outline-info btn-sm">Buscar</a>
+    </div>
+<hr>
 
   <form id="formulario-planta">
     <div class="card">

@@ -10,9 +10,12 @@
 
   <div class="container">
     <h1>Lista de plantas</h1>
-    <a href="./crear.php" class="btn btn-sm btn-success">Registrar planta</a>
-    <a href="./buscar.php" class="btn btn-sm btn-success">Buscar planta</a>
-    <hr>
+      <div class="mb-3">
+        <a href="./listar.php" class="btn btn-outline-primary btn-sm">Listar</a>
+        <a href="./crear.php" class="btn btn-outline-success btn-sm">Crear</a>
+        <a href="./buscar.php" class="btn btn-outline-info btn-sm">Buscar</a>
+      </div>
+<hr>
 
     <table class="table table-striped" id="tabla-plantas">
       <thead>
